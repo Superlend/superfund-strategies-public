@@ -1,0 +1,12 @@
+[submodule "lib/forge-std"]
+	path = lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/euler-earn"]
+	path = lib/euler-earn
+	url = https://github.com/euler-xyz/euler-earn
+[submodule "lib/aave-v3-core"]
+	path = lib/aave-v3-core
+	url = https://github.com/aave/aave-v3-core
+[submodule "lib/silo-contracts-v2"]
+	path = lib/silo-contracts-v2
+	url = https://github.com/silo-finance/silo-contracts-v2

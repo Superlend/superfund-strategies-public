@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[rpc_endpoints]
+etherlink-testnet="https://node.ghostnet.etherlink.com"
+base="https://base-mainnet.g.alchemy.com/v2/${ALCHEMY_KEY}"
+sonic="https://rpc.soniclabs.com/"
+
+[etherscan]
+etherlink-testnet={ key = "NO_KEY", chain = 128123, url= "https://testnet.explorer.etherlink.com/api/" }
+base={key = "${ETHERSCAN_KEY}", chain = 8453, url= "https://api.basescan.org/api/"}
+sonic={key = "SXZHYF9FZ7DW4QC8PMGG5S1YPXS5J5B8YA", chain = 146, url= "https://api.sonicscan.org/api/"}
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
